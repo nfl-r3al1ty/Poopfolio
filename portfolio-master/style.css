@@ -1,0 +1,57 @@
+h1 {
+    color: brown;
+
+}
+
+
+.menu *{
+    margin: 10px;
+    padding-top: 0px;
+}   
+
+.item{
+position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+ 
+}
+
+.item:hover img{
+    opacity: 0.33;
+    transform: scale(1.2);
+}
+
+.head{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foot{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #ffffff;
+}
